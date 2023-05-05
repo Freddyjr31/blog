@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/personalizado/styles.css">
+    <link rel="icon" href="/public/icons/smartphone.png">
+    <title>Blog | TECNET</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid m-0 header_nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="public/icons/smartphone.png" width="50" height="50" style="color:white;" class="d-inline-block align-top" alt="">
+                <span class="h3" style="color: rgb(73, 73, 73);">TecNet</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+    <section class="container-fluid">
+        <div class="row titulo">
+            <div class="col-md p-5 mb-5">
+                <h1 class="text-center mb-5 mt-5">TECNOLOGÍA INTERNET</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center navContent">
+            <nav class="nav">
+                <ul class="nav p-0">
+                    <li class="nav-item p-2 liNav">
+                        <a id="navText" class="nav-link h5" href="#uni1" aria-controls="uni1" onclick="transition();">UNIDAD I</a>
+                    </li>
+                    <li class="nav-item p-2 liNav">
+                        <a id="navText" class="nav-link h5" href="#uni2" aria-controls="uni2" onclick="transition();">UNIDAD II</a>
+                    </li>
+                    <li class="nav-item p-2 liNav">
+                        <a id="navText" class="nav-link h5" href="#uni3" aria-controls="uni3" onclick="transition();">UNIDAD III</a>
+                    </li>
+                    <li class="nav-item p-2 liNav">
+                        <a id="navText" class="nav-link h5" href="#uni4" aria-controls="uni1" onclick="transition();">UNIDAD IV</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- CONTENIDO -->
+        <div class="row p-3 contain_content">
+            <div class="col-md-8">
+                <!-- Unidad 1 -->
+                <div class="col-md" onclick="btn()">
+                    <div id="uni1" class="card AllCards h-100 w-100" style="width:25rem;background-image: url('/public/img/unidad_1_1.png');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                        <div class="card-body bodyCard">
+                            <div class="p-5">
+                                <div class="p-5"></div>
+                            </div>
+                            <h2 class="card-title">Unidad I</h2>
+                            <p class="text-start">Uso del internet según la generación</p>
+                            <button class="btn btn-outline-light" data-toggle="modal" data-target="#Unidad_1">Más detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Unidad_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="backdrop-filter: blur(5px);">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><strong>UNIDAD 1:</strong> Uso del internet según la generación</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body ">
+                                <p>
+                                    <br><img src="public/img/babyboomers.jpg" class="card-img-top" alt="..."><br><br><strong>- Generación Baby Boomers (46′ – 64′)</strong><br> Son muy comprometidos con los temas que les interesan, prefieren la calidad
+                                    ante la cantidad, y valoran la productividad. ¿Cómo usan Internet? En las encuestas realizadas por BuzzStream en el 2015, se revela que más de la mitad de los baby bomers se conectan en Internet mientras comen. Para
+                                    acceder a la red, el 40% emplea ordenadores portátiles y tablets como dispositivos principales. Se conectan, sobre todo, entre las 7 de la mañana y las 12 del medio día, horario que, en general es laboral. Más del 70%
+                                    de esta generación emplea Internet para buscar noticias, artículos y leer e-mails. Facebook es la red social en la que tienen más presencia. Uno de los principales intereses en esta red son los contenidos de los medios
+                                    de comunicación. También buscan información sobre economía, política y actualidad.
+                                </p>
+                                <p>
+                                    <br><br><img src="public/img/generacion_x.jpg" class="card-img-top" alt="..."><br><br><strong>- Generación X (65′-76′)</strong><br>Cuando el Internet vio la luz, la Generación X se encontraba ya en plena madurez, eran
+                                    jóvenes o adultos que vieron cómo cambió su vida (hábitos, entorno laboral, competencias, etc.) a causa de la explosión del nuevo paradigma de la información. Tuvieron que adaptarse a los cambios y romper los moldes
+                                    para no quedarse atrás. ¿Cuáles son sus hábitos de consumo en Internet? El 80% se conecta sobre todo en las últimas 4 horas del día, en la cena y antes de dormir a través de portátiles y smartphones. Una de las actividades
+                                    que más realizan en Internet es la comparación de precios y de productos de diferentes marcas. Al uso de Facebook se le suma Twitter y LinkedIn como las redes en las que tienen más presencia. Buscan información sobre
+                                    finanzas, estilo de vida saludables, tips y pasos para realizar diferentes tareas. Consumen un 76% de contenido de entretenimiento, y un 52% de contenido sobre vida saludable.
+                                </p>
+                                <p>
+                                    <br><br><img src="public/img/millennials.jpg" class="card-img-top" alt="..."><br><br><strong>- Generación Y – Millennials (77′-95′)</strong><br>Los millennials son nativos digitales: Internet nació cuando ellos eran
+                                    muy pequeños, por lo tanto fueron creciendo a la par. Hoy en día, los Millennials son jóvenes y adultos que emplean Internet para informarse, divertirse, comunicarse con los demás, compartir contenidos, comprar productos
+                                    y buscar pareja. Fueron los primeros en usar las redes sociales y han acompañado su desarrollo y participado incluso de sus actualizaciones principales. Estos son sus principales hábitos de consumo: Prefieren conectarse
+                                    de noche, emplean diferentes dispositivos para entrar a la red, sobre todo smartphones y portátiles. Están en la mayoría de las redes sociales aunque su interés por una u otra es muy cambiante. Les interesa conectarse
+                                    con amigos, compartir sus experiencias, comentar y recomendar. Además, más del 70% de la generación consume música, películas y series a través de plataformas de streaming. Entre sus principales intereses encontramos
+                                    el entretenimiento, los viajes, la tecnología y los blogs.
+                                </p>
+                                <p>
+                                    <br><img src="public/img/generacion_z.jpg" class="card-img-top" alt="..."><br><strong>Generación Z – Centennials (96′ – …)</strong><br>Esta es la generación más joven, eso ya lo sabemos todos: Crecieron en pleno auge
+                                    de Internet, las redes sociales y el streaming, por lo que su formación es mucho más interactiva que la de las generaciones anteriores que han tenido que aprender, con más y menos dificultades, de esta revolución de
+                                    la información. Su consumo es multipantalla y las redes a las que acceden, sobre todo, son Instagram, Youtube y Snapchat. ¿Cómo se comportan en la red? Además de emplear Internet para el entretenimiento, los Centennials
+                                    encuentran en la red un espacio para adquirir conocimiento, estudiar, y hacer trabajos en equipo. Una de las formas de comunicarse con sus amigos que más emplean son las vídeo llamadas. Ni hablar de la mensajería instantánea:
+                                    Envían un promedio de 50.000 mensajes en el día. Sus dispositivos favoritos son los smartphones ¡Y los chequean unas 150 veces en el día! Aman los emoticones, las apps de fotografía, los filtros y los vídeojuegos.
+                                </p>
+                                <p>
+                                    <br><br><img src="public/img/unidad_1_2.png" class="card-img-top" alt="..."><br><br>
+                                    <strong>-La tecnología actual en nuestra sociedad:</strong><br>La tecnología ha permitido una serie de cambios en la vida cotidiana, porque transforma su estado natural y artificial, según sus propias necesidades y
+                                    su capacidad para transformar su entorno. Sinceramente la tecnología ya no es importante, es necesaria. El mundo se volvió dependiente a ella, pero peor que eso, adicto. Todo a nuestro alrededor es tecnología, desde
+                                    un reloj, una calculadora hasta automóviles, aviones, las famosísimas computadoras, etc. <br>La tecnología, con sus pro y sus contra, se ha desarrollado de forma maravillosa y ha permitido que se prolongue la vida,
+                                    se mejore el sistema de salubridad y que hayan avanzado los métodos de producción y distribución de diferentes cosas como la cosecha de alimentos, la ropa, etc. Tanto así que ya ésta se ha convertido en parte fundamental
+                                    para el desarrollo funcional del país. Hemos llegado al punto de que una sociedad sin tecnología es una sociedad prehistórica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Unidad 2 -->
+                <div class="col-md">
+                    <div id="uni2" class="card AllCards h-100 w-100" style="width:25rem;background-image: url('/public/img/diverse-friends-using-digital-devices.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                        <div class="card-body bodyCard">
+                            <div class="p-5">
+                                <div class="p-5"></div>
+                            </div>
+                            <h2 class="card-title">Unidad II</h2>
+                            <p class="text-start">Uso de las herramientas tecnológicas</p>
+                            <button class="btn btn-outline-light" data-toggle="modal" data-target="#Unidad_2">Más detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Unidad_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="backdrop-filter: blur(5px);">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><b>Unidad 2:</b> Uso de las herramientas tecnológicas</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <br><br><img src="public/img/unidad_2_1.jpg" alt="" class="card-img-top">
+                                    <br><b>- Redes sociales y tecnologías:</b><br> La utilización de las tecnologías de la información y la comunicación se ha integrado casi totalmente en las actividades diarias de las personas. Por ejemplo, en el ámbito
+                                    educativo ha generado un notable impacto en todos los niveles, permitiendo un aprendizaje sin fronteras, sin límites marcados por la distancia, posibilitando una interacción en ámbitos de estudio desde cualquier parte
+                                    del mundo.
+                                </p>
+                                <p>
+                                    <img src="public/img/unidad_2_2.jpg" alt="" class="card-img-top">
+                                    <br><br>La tecnología, el internet y las redes sociales actualmente son de gran influencia en la vida de las personas de todas las edades. Si el uso aplicado a estas herramientas es correcto son de gran ayuda, ya que
+                                    significan una inmensa fuente de información, interacción, formación en todos los niveles y empleos que pueden ser desarrollados por medio de los innumerables beneficios que traen consigo. Sin embargo, el uso indebido
+                                    de los mismos puede desencadenar en situaciones no muy oportunas.<br><br> Es muy importante que los usuarios estén en alerta, al existir demasiada información en línea es posible encontrar aquellas que no son correctas
+                                    o se encuentran alteradas, por eso se recomienda siempre acudir a fuentes oficiales. Haciendo referencia a conductas de riesgo que pueden ser desarrolladas a raíz del uso de internet y las nuevas tecnologías, los adolescentes
+                                    integran un sector especialmente vulnerable. La adolescencia se caracteriza por ser una etapa en la cual una persona no siempre cuenta con la capacidad de medir riesgos y asumir las consecuencias de sus actos, acompañados
+                                    de una falsa sensación de seguridad y una creciente necesidad de socializar.
+                                </p>
+                                <p>
+                                    <br><br> Se puede considerar a la tecnología y sus aplicaciones como un medio para facilitar, optimizar tareas y concretar objetivos. A su vez ha presentado varios retos para la sociedad actual, principalmente en el
+                                    ámbito de la comunicación. Otorga nuevas alternativas de gran impacto mejorando muchos aspectos, por ello es esencial utilizar a favor de las necesidades y exigencias actuales y sobre todo comprender el papel que representa
+                                    en la vida de las personas.
+                                    <img src="public/img/unidad_2_3.jpg" alt="" class="card-img-top">
+                                    <br><br><b>- Internet como herramienta educativa</b><br> Internet es una herramienta con una gran variedad de recursos tanto para estudiantes como para profesores. Una forma atractiva, diferente y más visual para aprender,
+                                    estimular y explorar en los diferentes ámbitos de la educación. El potencial de estas nuevas tecnologías y el desarrollo cada vez mejor de las mismas se aplica como herramientas para colaborar y mejorar la educación.
+                                    Otras opciones para mejorar la calidad de la educación y el rendimiento de los alumnos.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Unidad 3 -->
+                <div class="col-md">
+                    <div id="uni3" class="card AllCards h-100 w-100" style="width:25rem;background-image: url('/public/img/unidad_3_2.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                        <div class="card-body bodyCard">
+                            <div class="p-5">
+                                <div class="p-5"></div>
+                            </div>
+                            <h2 class="card-title">Unidad III</h2>
+                            <p class="text-start">El marketing a través de la tecnología</p>
+                            <button class="btn btn-outline-light" data-toggle="modal" data-target="#Unidad_3">Más detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Unidad_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="backdrop-filter: blur(5px);">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><b>UNIDAD 3:</b> el marketing a través de la tecnología</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body ">
+                                <p>
+                                    <br><img src="public/img/unidad_3_1.jpg" alt="" class="card-img-top">
+                                    <br><br><b>- La tecnologia y el internet como marketing:</b><br> El contexto actual ofrece grandes oportunidades para las marcas, pero también presenta grandes retos. En un mundo donde los consumidores tienen más poder
+                                    que nunca, el mercadeo cobra mayor importancia. Además, los ejecutivos de mercadeo deben seguir cumpliendo su función básica: «interpretar las necesidades de los consumidores y presentar una oferta diferenciada que
+                                    las satisfaga de forma eficiente». La identificación de las necesidades es la base, y la exposición a los medios electrónicos brinda la oportunidad de acceder a información sobre el comportamiento de las audiencias
+                                    como nunca antes. El ejecutivo de mercadeo puede valerse no solo de la investigación de mercados tradicional, sino también de un arsenal de herramientas de seguimiento del comportamiento en línea, tanto en sitios de
+                                    internet como en aplicaciones. Igualmente, se puede apoyar en la tecnología con el propósito de crear valor para esos consumidores.
+                                    <br><img src="public/img/unidad_3_3.jpg" class="card-img-top">
+                                    <br><b> - La tecnología y el internet de las cosas</b><br> El Internet de las cosas (IoT) es el proceso que permite conectar elementos físicos cotidianos al Internet: desde objetos domésticos comunes, como las bombillas
+                                    de luz, hasta recursos para la atención de la salud, como los dispositivos médicos; también abarca prendas y accesorios personales inteligentes e incluso los sistemas de las ciudades inteligentes. El término IoT hace
+                                    referencia a todos los sistemas de dispositivos físicos que reciben y transfieren datos a través de redes inalámbricas con intervención humana mínima, lo cual es posible gracias a la integración de dispositivos informáticos
+                                    en todo tipo de objetos. Por ejemplo, un termostato inteligente (es decir, que utiliza el IoT) recibe datos de la ubicación de su automóvil inteligente mientras conduce para ajustar la temperatura de su casa antes de
+                                    que llegue. Todo esto se logra sin su intervención e incluso ofrece un mejor resultado que si lo hiciera de forma manual. Un sistema de IoT tradicional, como el hogar inteligente descrito anteriormente, funciona enviando,
+                                    recibiendo y analizando datos de forma permanente en un ciclo de retroalimentación.
+                                    <br><img src="public/img/unidad_3_2.jpg" class="card-img-top">
+                                    <br><br> Según el tipo de tecnología de IoT, las personas o los sistemas de inteligencia artificial y aprendizaje automático (IA/ML) pueden analizar estos datos casi de inmediato o durante un cierto tiempo. Piense en
+                                    el ejemplo del hogar inteligente. Para predecir el momento ideal en el cual controlar el termostato antes de que usted llegue a casa, el sistema de IoT puede conectarse a la API de Google Maps y, de este modo, obtener
+                                    información actual sobre el tráfico en el área. Además, puede utilizar los datos a largo plazo que recopila el automóvil para conocer sus hábitos de conducción. Por otra parte, las empresas de servicios públicos tienen
+                                    la posibilidad de analizar los datos de IoT de los clientes con termostatos inteligentes para optimizar el sistema a gran escala.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Unidad 4 -->
+                <div class="col-md">
+                    <div id="uni4" class="card AllCards h-100 w-100" style="width:25rem;background-image: url('/public/img/unidad_4_3.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                        <div class="card-body bodyCard">
+                            <div class="p-5">
+                                <div class="p-5"></div>
+                            </div>
+                            <h2 class="card-title">Unidad IV</h2>
+                            <p class="text-start">Redes de acceso al internet</p>
+                            <button class="btn btn-outline-light" data-toggle="modal" data-target="#Unidad_4">Más detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Unidad_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="backdrop-filter: blur(5px);">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel"><b>UNIDAD 4:</b> Redes de acceso al internet</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body ">
+                            <p>
+                                <!--img src="public/img/unidad_4_1.jpg" class="card-img-top" alt=""-->
+                                <br><b>- Que es una red de acceso?</b><br>
+                                <br><img src="public/img/unidad_4_2.png" class="card-img-top" alt="">
+                                <br>Red de acceso hace mención a aquella infraestructura de la red de comunicaciones que conecta a los usuarios finales o abonados con algún proveedor de servicios
+                                <br><b>- Acceso conmutado a internet a través de una línea telefónica</b><br>
+                                <br><img src="public/img/unidad_4_3.jpg" class="card-img-top" alt="">
+                                <br>Una conexión por línea conmutada es una forma barata de acceso a Internet en la que el cliente utiliza un módem para llamar a través de la Red Telefónica Conmutada (RTC) al nodo del ISP, un servidor de acceso (por ejemplo
+                                PPP) y el protocolo TCP/IP para establecer un enlace módem-a-módem, que permite entonces que se enrute a Internet. Por influencia del inglés es frecuente que, también en castellano, se llame a este tipo de conexión dial-up.
+                                La desventaja de este tipo de conexión es que es lenta comparada con las conexiones de tipo DSL, también llamada internet flash. Esta conexión es factible en la mayor parte del planeta, ya que la RTC está globalmente extendida.<br>Esto
+                                es útil para la gente que viaja con su ordenador portátil. Esta conexión es utilizada en zonas rurales o en áreas muy remotas donde las conexiones de banda ancha son imposibles por falta de infraestructura (la baja demanda
+                                de este tipo de servicios en estos lugares hace que su instalación sea poco rentable y que no se halle entre las prioridades de las empresas de telecomunicaciones; también hay zonas sin siquiera RTC).
+                                <br><br><b>- Acceso mediante la red digital de servicios integrados</b><br>
+                                <br><img src="public/img/unidad_4_4.jpg" class="card-img-top" alt="">
+                                <br>La Red digital de servicios integrados (RDSI) proporciona una conectividad digital conmutada de extremo a extremo. RDSI puede transportar voz y datos a través de una misma conexión. Hay dos tipos distintos de servicios
+                                RDSI, siendo el más común el de la interfaz de velocidad básica (BRI). La BRI tiene dos canales B de 64 kbps para transportar los datos de cliente, y un canal D para transportar los datos de señal. Los dos canales B se
+                                pueden enlazar entre sí para dar una velocidad combinada igual a 128 kbps. En algunas zonas, la compañía telefónica puede limitar cada uno de los canales B a una combinación de 56 kbps o 112 kbps. También hay una restricción
+                                física en lo que se refiere a la ubicación del cliente, que debe estar a menos de 5.400 metros (18.000 pies) del conmutador de la oficina central. Existe la posibilidad de ampliar esta distancia con repetidores.
+                                <br><b>- acceso mediante la red celular</b><br>
+                                <br><img src="public/img/unidad_4_5.png" class="card-img-top" alt="">
+                                <br>Son aquellas redes pensadas para que el teléfono o equipo del usuario pueda moverse con libertad en la zona cubierta por dicha red incluso mientras mantiene una conversación o una conexión de datos. Una red móvil debe
+                                permitir el movimiento incluso a la velocidad de un coche sin que exista una pérdida de la conexión. La telefonía móvil, también llamada telefonía celular, básicamente está formada por dos grandes partes: una red de comunicaciones
+                                (o red de telefonía móvil) y los terminales (o teléfonos móviles) que permiten el acceso a dicha red. La tecnología celular requiere un gran número de bases o estaciones en una ciudad de cualquier tamaño
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SIDE -->
+            <div class="col-md">
+                <p class="h6">Noticias desacadas</p>
+                <div class="row p-3">
+                    <div class="card m-1" style="width: 10rem;">
+                        <img class="card-img-top" src="public/img/pexels-pixabay-39284.jpg" width="20" height="80" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="https://www.hiru.eus/es/tecnologias-para-la-informacion-y-la-comunicacion/internet-y-las-tecnologias-de-la-comunicacion" target="_blank">Internet Y Nuevas Tecnologías</a>
+                        </div>
+                    </div>
+                    <div class="card m-1" style="width: 10rem;">
+                        <img class="card-img-top" src="public/img/pexels-bich-tran-669996.jpg" width="20" height="80" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <a href="https://tendenciasdigitales.com/las-generaciones-y-su-uso-de-internet/" target="_blank">Las generaciones y el uso del internet</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="h6">Más visitados</p>
+                <div class="row p-3">
+                    <div class="card m-1 p-2" style="width: 10rem;">
+                        <img class="card-img-top" src="public/icons/2-LogoUptamca_IG.png" width="30" height="80" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="" target="_blank">#1 Tecnologia e Internet por ... </a>
+                        </div>
+                    </div>
+                    <div class="card m-1 p-2" style="width: 10rem;">
+                        <img class="card-img-top" src="public/icons/2-LogoUptamca_IG.png" width="30" height="80" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="" target="_blank">#2 Tecnologia e Internet por ... </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row more-content">
+            <div class="col-md">
+                <h1 style="color: rgb(73, 73, 73);">¡Gracias por tu Visita!</h1>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row footerPage p-3">
+                <div class="col-md m-2">
+                    <p class="h6">Universidad:</p>
+                    <div class="input-group mb-2">
+                        <img src="public/icons/2-LogoUptamca_IG.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                        <span>UPTAMCA | trayecto IV</span>
+                    </div>
+                </div>
+                <div class="col-md m-2">
+                    <p class="h6">Asignatura:</p>
+                    <div class="input-group mb-2">
+                        <img src="public/icons/libros.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                        <p>Tecnología Internet</p>
+                    </div>
+                </div>
+                <div class="col-md m-2">
+                    <p class="h6">Profesor:</p>
+                    <div class="input-group mb-2">
+                        <img src="public/icons/man3.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                        <span>Ramon Molina</span>
+                    </div>
+                </div>
+                <div class="col-md m-2">
+                    <p class="h6">Desarrolladores:</p>
+                    <div class="input-group mb-2">
+                        <img src="public/icons/man.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                        <span>Henderver Alvares</span>
+                    </div>
+                    <div class="input-group mb-2">
+                        <img src="public/icons/man2.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                        <span>Freddy Bernal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-between footerPage2 px-3 pt-3 pb-0">
+                <div class="col-md">
+                    <div class="input-group mb-2">
+                        <img src="public/icons/marcador-de-posicion.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                        <p>Los Teques - Edo. Miranda - Venezuela</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between footerPage2 px-3 pt-3 pb-3">
+                <div class="col-md">
+                    <p>© 2022 TecNet.com – Blog Web.</p>
+                </div>
+                <div class="col-md ">
+                    <div class="input-group justify-content-end">
+                        <div class="input-group-append" id="button-addon4">
+                            <img src="public/icons/facebook.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                            <img src="public/icons/gorjeo.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                            <img src="public/icons/instagram.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="root"></div>
+    
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="index.js" type="text/babel"></script>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/personalizados/bg.js"></script>
+</body>
+
+</html>

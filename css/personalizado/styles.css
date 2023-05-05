@@ -1,0 +1,107 @@
+  .header_nav {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+      color: rgb(73, 73, 73);
+      /*background-color: #1a1b26;*/
+      background-color: whitesmoke;
+  }
+  
+  .titulo {
+      padding-top: 150px;
+      color: azure;
+      background-image: url('/public/img/pexels-miguel-á-padriñán-1591056.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  
+  .more-content {
+      padding-top: 150px;
+      padding-bottom: 150px;
+      margin: 0px;
+      color: azure;
+      background-color: rgb(255, 255, 255);
+      background-image: url('/public/img/gif.gif');
+      background-repeat: no-repeat;
+      background-position: center right;
+      background-attachment: fixed;
+      background-size: contain;
+      z-index: 0;
+  }
+  
+  .AllCards {
+      margin: 10px;
+      border-radius: 20px;
+      border: none;
+      box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.23);
+  }
+  
+  .AllCards:hover {
+      border: none;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bodyCard {
+      color: azure;
+      border: none;
+      border-radius: 20px;
+      background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #8360c3);
+  }
+  
+  .bodyCard:hover {
+      display: block;
+      color: azure;
+      border: none;
+      border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(5px);
+  }
+  
+  .navContent {
+      /*background-color: #161720;*/
+      color: rgb(165, 165, 165);
+      background-color: whitesmoke;
+  }
+  
+  .liNav {
+      /*background-color: #161720;*/
+      color: rgb(204, 204, 204);
+      background-color: whitesmoke;
+  }
+  
+  #navText {
+      color: rgb(73, 73, 73);
+  }
+  
+  #navText:hover {
+      color: #8360c3;
+      color: -webkit-linear-gradient(to bottom, #ffffff, #8360c3);
+      color: linear-gradient(to bottom, #ffffff, #8360c3);
+  }
+  /*
+.liNav:hover {
+    background: #8360c3;
+    -- fallback for old browsers 
+    background: -webkit-linear-gradient(to bottom, #ffffff, #8360c3);
+    -- Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to bottom, #ffffff, #8360c3);
+    -- W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+}
+*/
+  
+  .contain_content {
+      background-color: transparent;
+  }
+  
+  .footerPage {
+      /*background-color: #1a1b26;*/
+      background-color: transparent;
+  }
+  
+  .footerPage2 {
+      /*background-color: #161720;*/
+      background-color: whitesmoke;
+  }
